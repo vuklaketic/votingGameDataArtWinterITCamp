@@ -48,17 +48,16 @@ PORT=5000
 ### 3⃣ Install Dependencies
 
 ### Backend:
-
+Navigate to the backend folder:
 ```
 cd backend
 npm install
 npm start  # Starts backend on port 5000
 ```
-
 ### Frontend:
-
+Open a second terminal window and navigate to the main project directory (outside of the backend folder):
 ```
-cd ..    # Move back to the main project directory
+# Go to the main project directory
 npm install
 npm start  # Starts frontend on port 3000
 ```
