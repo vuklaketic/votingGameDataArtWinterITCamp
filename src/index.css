@@ -1,0 +1,78 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f9fa;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.joke-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  text-align: center;
+}
+
+.joke h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 15px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.joke p {
+  font-size: 20px;
+  color: #555;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.emoji-btn {
+  font-size: 24px;
+  margin: 5px;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 50px;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.emoji-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 5px 15px rgba(255, 154, 158, 0.4);
+}
+
+.vote-counts {
+  margin: 15px 0;
+  font-size: 18px;
+  color: #666;
+}
+
+.next-btn {
+  margin-top: 20px;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  border-radius: 50px;
+  background: linear-gradient(135deg, #84fab0, #8fd3f4);
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.next-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 5px 15px rgba(132, 250, 176, 0.4);
+}
