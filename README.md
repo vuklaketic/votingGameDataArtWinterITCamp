@@ -67,4 +67,3 @@ npm start  # Starts frontend on port 3000
 
 - **Frontend**: React, Plain CSS
 - **Backend**: Node.js, Express.js, MongoDB
-- **Deployment**: GitHub
